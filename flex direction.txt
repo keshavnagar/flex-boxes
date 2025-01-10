@@ -1,0 +1,18 @@
+In CSS, "flex-direction" is a property that controls the primary layout direction of items within a flex container, defining whether the items are arranged horizontally (row) or vertically (column), and whether they should be ordered in the default or reversed direction (e.g., "row-reverse" for left-to-right reversed) within that container; essentially, it sets the main axis along which flex items are placed. 
+Key points about flex-direction:
+Default value: "row" - items are arranged horizontally from left to right.
+Possible values:
+row: Horizontal layout (left to right)
+row-reverse: Horizontal layout (right to left)
+column: Vertical layout (top to bottom)
+column-reverse: Vertical layout (bottom to top) 
+Example usage:
+Code
+
+.flex-container {
+
+  display: flex;
+
+  flex-direction: column; /* Arrange items vertically */ 
+
+}

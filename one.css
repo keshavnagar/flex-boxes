@@ -7,10 +7,21 @@ body{
 
 .container{
     border: 4px solid cadetblue;
-    display: inline-flex;
+    display: flex;
     /* when you write the flex property here the change in container is like the container in there full width mode but when you write inline flex here the container take place only that items are compeleted , so only flex is like bock flex , and inline flex is like that i understood above  */
 
     /* okay you see the change in both way , so please do this in your revision , you also read the theory in 7th img  */
+    flex-direction: row;/*it is default because we are considering from main axis okay so here row means start to end means left to right means start from main start okay and flow from start to end */
+
+    /*if i write row reverse it means start from main end and flow is like end to start */
+
+    flex-direction: row-reverse;
+
+    flex-direction: column;
+
+    /*it means it is according to cross axis it means start to end */
+    flex-direction: column-reverse;
+    /*and if we write reverse than end to start */
 }
 
 .flex-item{
