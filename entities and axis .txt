@@ -1,0 +1,36 @@
+so there are 2 entities in flex box model : 
+
+1. flex container 
+2. flex items inside the flex box 
+
+also shows in 4 image 
+
+axes : 
+
+so there are two axes in flex box : 
+
+1. main axis
+2. cross axis 
+
+main axis : left to right 
+cross axis : top to bottom
+
+also show in 5 image 
+
+the starting point of main axis known as main start 
+and ending point of main axis known as main ending
+
+and the length between main start and main end point is known as main size 
+
+means we can say that the main axis flow from main start to main end and take main size length
+
+similarly in cross axis
+
+the starting point of cross axis known as cross start
+and ending point of cross axis known as cross end 
+
+and the length between cross start and cross end point is known as cross size 
+
+means we can say that the cross axis flow from cross start to cross end and take cross size length
+
+also shows in 6 image
